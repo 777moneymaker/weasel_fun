@@ -6,9 +6,9 @@ __Pseudo-code__
 * Generate random sequence
 * Make a 100 copies of the sequence
 * Mutate a random character in each copy
-* Until hamming distance == 0 __do__
+* Until hamming distance == 0:
 	- Get the best hamming distance for each sequence
-	- Set the best solution as a new sequence __end__
+	- Set the best solution as a new sequence
 
 Author
 -----
