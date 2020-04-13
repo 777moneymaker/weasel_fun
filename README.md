@@ -7,8 +7,10 @@ Purpose
 * Make a 100 copies of the sequence
 * Mutate a random character in each copy
 * Until hamming distance == 0 **do** 
-* 	Get the best hamming distance for each sequence, and set the best solution as a new sequence 
-* **end**
+	```
+	Get the best hamming distance for each sequence, and set the best solution as a new sequence
+	``` 
+**end**
 
 Author
 -----
