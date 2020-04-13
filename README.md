@@ -1,16 +1,14 @@
 # WEASEL MUTATION
 Simple script written just for fun.
 
-Some pseudo-code
+__Pseudo-code__
 -----
-* __Main__
-	- Generate random sequence
-	- Make a 100 copies of the sequence
-	- Mutate a random character in each copy
-	__Finally__
-		- Until hamming distance == 0 **do** 
-			```Get the best hamming distance for each sequence, and set the best solution as a new sequence```
-		- **end**
+* Generate random sequence
+* Make a 100 copies of the sequence
+* Mutate a random character in each copy
+* Until hamming distance == 0 __do__
+	- Get the best hamming distance for each sequence
+	- Set the best solution as a new sequence __end__
 
 Author
 -----
